@@ -46,8 +46,8 @@ requirements:
     - r-crayon
     - r-lotri
     - r-magrittr
-    - r-rxode2parse >2.0.13
-    - r-rxode2random
+    - r-rxode2parse >=2.0.17
+    - r-rxode2random >=2.0.12
   run:
     - r-base
     - {{ native }}gcc-libs         # [win]
@@ -57,8 +57,8 @@ requirements:
     - r-crayon
     - r-lotri
     - r-magrittr
-    - r-rxode2parse >2.0.13
-    - r-rxode2random
+    - r-rxode2parse >=2.0.17
+    - r-rxode2random >=2.0.12
 
 test:
   commands:
